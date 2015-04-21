@@ -1,0 +1,188 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.parallax-container {
+	height: 600px;
+}
+
+.sec {
+	text-align: center;
+}
+
+.sec p{
+	font-size: 0.85rem;
+}
+
+.fade-on-hover {
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+.fade-on-hover:hover {
+	cursor: pointer;
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+.link {
+	opacity: 0.65;
+}
+
+.link-div {
+	text-align: center;
+}
+
+.card-content {
+	text-align: center;
+}
+
+.client-div{
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-padding{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.inner-div{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.width-90{
+  width:90%;
+  /*margin-right: auto;
+  margin-left: auto;*/
+}
+
+.margin{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom{
+  margin-bottom: 0px;
+}
+
+.big{
+  width:90%;
+}
+.heading
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:50px;
+font-weight:bold;
+-webkit-transition-property:color, text;
+-webkit-transition-duration: 0.2s, 0.2s;
+-webkit-transition-timing-function: linear, ease-in;
+
+-moz-transition-property:color, text;
+-moz-transition-duration:0.2s;
+-moz-transition-timing-function: linear, ease-in;
+
+-o-transition-property:color, text;
+-o-transition-duration:0.2s;
+-o-transition-timing-function: linear, ease-in;
+}
+.heading:hover{color:red;
+}
+
+.row .row-div {
+	padding: 0px;
+	overflow: hidden;
+}
+
+.responsive-img {
+	display: block;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.outerLink 
+{
+	background-color:black; 
+	display:block; 
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+img.darkableImage 
+{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+body {
+	font-family: 'Quicksand';
+	font-weight: 300;
+}
